@@ -14,7 +14,7 @@ public class WebServiceAutoImpl implements WebServiceAuto {
 	}
 
 	@Override
-	public List<String> chercheVehicules(int prixMin, int prixMax) {
+	public List<String> retrouveVehicules(int prixMin, int prixMax) {
 		return this.catalogue.retrouveVehicules(prixMin, prixMax);
 	}
 
