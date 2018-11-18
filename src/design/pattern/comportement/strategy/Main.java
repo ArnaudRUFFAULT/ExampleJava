@@ -7,6 +7,7 @@ public class Main {
 		Personnage perso1 = new Guerrier();
 		perso1.description();
 		perso1.attaquer();
+		perso1.travailler();
 		
 		System.out.println();
 		
@@ -18,6 +19,10 @@ public class Main {
 		
 		perso1.setCombat(new BatonMagique());
 		perso1.attaquer();
+		perso1.setMetier(new Mineur());
+		perso1.travailler();
+		perso1.setMetier(new Forgeron());
+		perso1.travailler();
 
 	}
 
